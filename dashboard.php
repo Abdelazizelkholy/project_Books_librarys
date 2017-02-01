@@ -45,14 +45,7 @@ and open the template in the editor.
     
             
             
-             <table class="table">
-                  <tr>
-                      <td>ID</td>
-                      <td>Title</td>
-                      <td>Author</td>
-                      <td>Status</td>
-                      <td>Edit || Delete </td>
-                  </tr>
+            
                   <?php
                   error_reporting("E_ALL & E_NOTIC");
                   include 'connect.php';
@@ -144,7 +137,17 @@ and open the template in the editor.
                   
                   
                   else {
+                      echo '
                       
+                       <table class="table">
+                  <tr>
+                      <td>ID</td>
+                      <td>Title</td>
+                      <td>Author</td>
+                      <td>Status</td>
+                      <td>Edit || Delete </td>
+                  </tr>
+                     ';
                   
                   
              
